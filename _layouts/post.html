@@ -1,0 +1,18 @@
+{% include head.html %}
+
+	<main>
+
+    	<h1>{{ page.title }}</h1>
+    	<span class="date">{{ page.date }}</span>
+
+    	{{ content }}
+
+    	{% if page.attribution-name %}
+    	<p>From <a href="{{ page.attribution-link }}">{{ page.attribution-name }}</a>.</p>
+    	{% endif %}
+
+	</main>
+
+	{% include nav.html %}
+
+{% include foot.html %}

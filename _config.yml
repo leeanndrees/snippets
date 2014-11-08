@@ -1,0 +1,4 @@
+name: snippets
+markdown: redcarpet
+pygments: true
+baseurl: /snippets
